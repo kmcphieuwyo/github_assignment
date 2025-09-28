@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Basic map</title>
+    <title>Leaflet Complex Web Map</title>
     <meta name="viewport" content="width=device-width, 
     initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -38,21 +38,15 @@
         ).addTo(map);
 
         //add a point marker in the agriculture building at University of Wyoming
-        var pnt = L.marker ([41.3142, -105.5808]).addTo(map);
+
        // add a marker
 
       
         //add a circlemarker
-        L.circleMarker(
-            [41.3142, -105.5808- 0.001],
-            {radius: 50, color: "black", fillColor: "red"}
-        ).addTo(map);
+
 
         //add a line
-        var line = L.polyline(
-            [[41.3142,-105.5808], [41.31207, -105.56826]],
-                {color: "red", weight: 10}
-        ).addTo(map);
+
 
         //add polygons
         
